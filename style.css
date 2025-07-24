@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    background-color: rgb(245, 248, 255);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Header Section Start */
+
+.header-section{
+     display: flex;
+     justify-content: space-between;
+     width: 1140px;
+     height: 71px;
+}
+
+.logo{
+margin: auto;
+margin-top: 10px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+    margin: 0px 200px;
+}
+nav ul{
+    display: flex;
+    /* align-items: center; */
+  justify-content: center;
+    align-items: center;
+    gap: 48px;
+    
+}
+nav ul li{
+     align-items: center;
+     justify-content: center;
+}
+nav ul li a{
+     align-items: center;
+     justify-content: center;
+     width: 39px;
+     height: 24px;
+   
+
+}
+.s{
+     color: #8987A1;
+}
+.a{
+     color: #8987A1;
+}
+.novation{
+     margin-top: 35px;
+     padding: 40px;
+     margin-right: 25px;
+     margin-top: 5px;
+}
+
+/* Header Section End */
+
+/* Responsive create */
+
+
+@media screen and(max-width:576px){
+     .header-section{
+          flex-direction: column;
+     }
+}
